@@ -28,6 +28,7 @@ In order to run script change `projectName` and `projectURL` in `script.js` file
 Latest commit from master branch is 73731543655c75604837a3725883b513938cc33b
 Current commit from master branch is 4a0612fab7b3a55e3e11d485233b063006d03b0f
 
+Running iDFlakies script for ID tests. This may take up to several hours.
 Analysing results, this may take up to several minutes.
 
 There are still 1 old unfixed flaky tests, 0 new flaky tests, and 34 fixed flaky tests.
