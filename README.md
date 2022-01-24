@@ -1,7 +1,7 @@
 # Flaky tests detection
 
 ## Description
-
+test
 This repository contains nodejs script for detecting Order-Dependent flaky tests using iDFlakies tool. This repository contains `projects` directory for cloning github repositories. Directory `unfixedFlakyTests` contains list of unfixed flaky tests according to the http://mir.cs.illinois.edu/flakytests/unfixed.html. Directory `mockedLogs` contains mocked logs of command `mvn testrunner:testplugin -Ddetector.detector_type=random-class-method -Ddt.randomize.rounds=10 -Ddt.detector.original_order.all_must_pass=false` for faster development. Script downloads https://github.com/idflakies/iDFlakies repository and using `pom-modify/modify-project.sh` injects dependency for flaky tests detection.
 
 ## Prerequests
